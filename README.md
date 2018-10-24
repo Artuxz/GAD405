@@ -1,2 +1,2 @@
 # GAD405
-School
+Uni
