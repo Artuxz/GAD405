@@ -10,6 +10,7 @@ function draw() {
   location.reload();
 }, 5000);
    }
+   //Shape 
   function customShape() {
     let size = random(200);
     let x = random(500);
