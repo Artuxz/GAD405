@@ -1,23 +1,25 @@
+//setup
 function setup() {
-  createCanvas(500,500);
-    background(255,255,255);
+  createCanvas(500,500); //Specifies the canvas
+    background(255,255,255); //Background colors
+    frameRate(10); //Frame Rate
 }
-  // Shape Draw
+  //Shape Draw
 function draw() {
   customShape();
   //Refresh
   setTimeout(function() {
   location.reload();
-}, 5000);
+}, 15000); //Refresh Time
    }
-   //Shape 
+   //Shape
   function customShape() {
     let size = random(200);
     let x = random(500);
     let y = random(500);
-    //Size/Pos
+    //Size / Pos
     fill(random(255),random(255),random(255),random(255));
-    ellipse(x,y,size,size);
+    ellipse(x,y,size,size); //Draws a randomized ellipse
     fill(random(255),random(255),random(255),random(255));
     ellipse(x,y,size*0.8,size*0.8);
     fill(random(255),random(255),random(255),random(255));
